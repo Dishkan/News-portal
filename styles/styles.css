@@ -1,0 +1,319 @@
+body {
+  font-family: Arial, "Times New Roman", sans-serif;
+  font-size: 12pt;
+  margin: 0;
+  padding: 20px 40px 20px 40px;
+  background-color: #fff;
+}
+
+#logo table {
+   width: 100%;	
+   border: 1px;
+}
+
+.right {
+   text-align: right;	
+}
+#logo p {
+	font-style: italic;
+   margin: 0;	
+}
+.gray {
+   color: #afaeae;	
+}
+.green {
+   color: #91aa77;
+   font-weight: bold;   
+}
+#topmenu ul {
+      margin: 0;
+	  padding: 0;
+}
+
+#topmenu ul li {
+      float:left;
+      list-style:none;	  
+}
+
+#topmenu {
+    background-color: green;
+    	margin-top: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+#topmenu ul li a{
+   	color:#fff;
+	font-size: 120%;
+	display: block;
+	padding: 18px 20px;
+	text-decoration: none;
+}
+
+#topmenu ul li.active a, #topmenu ul li a:hover{
+      background-color: red;
+}
+#Contacts {
+   float: right;
+      margin: 0 0 0 0;
+}
+
+#Contacts a img {
+     border: none;	
+}
+
+#header img{
+   width:100%;
+}
+
+#header {
+  margin-top: 15px;	
+}
+
+#Content_header {
+   float: right;
+   position: relative;
+   text-align: right;
+   top: -200px;
+   right: 30px;
+}
+
+#Content_header h1 {
+	 margin: 0;
+
+}
+
+#Content_header h1 {
+     color: #fff;	
+	 font-size: 210%;
+}
+
+
+
+#Content_header a {
+	background-color: #d8812e;
+	padding: 10px 20px;
+    color:#fff;
+    text-decoration: none;	
+}
+
+#Content_header p {
+   margin-top: 30px;	
+}
+
+#Content_header a:hover {
+	font-size: 120%;
+	color: #000;
+}
+
+#menu {
+    margin-top: 15px;	
+}
+
+#menu .right {
+    text-align:right;	
+}
+
+#menu td a{
+   background-color: #ececec;
+   padding: 15px 20px;
+   text-decoration: none;
+   color: #a0a0a0;
+   font-weight: bold;
+   display: block;
+}
+
+#menu td.active a, #menu td a:hover {
+   background-color: #e2ecf4;
+   color: #3b638f;
+}
+
+#search div input {
+  border: 3px solid #cbddbb;
+  color: #ececec0;
+  height: 25px;
+  width: 220px;
+  padding-left: 5px;
+}
+
+#search div {
+  border: 1px solid #aec697;
+}
+
+#menu.right {
+    text-align: right;	
+}
+
+#menu table{
+	width: 100%;
+}
+
+#menu table table{
+	width: 100%;
+	margin-top: -110px;
+}
+
+#menu table table{
+  width: auto;	
+}
+
+#search {
+   float:right;	
+}
+
+.separator {
+   border-top: 1px solid #b5c6dd;
+   width:100%;
+   height: 1px;
+   margin-top: -30px; 
+}
+
+.separator2 {
+   border-top: 1px solid #b5c6dd;
+   width:100%;
+   height: 1px;
+   margin: 30px 0 ; 
+}
+
+#products {
+  margin-top: 15px;
+}
+
+#products table{
+    width:100%;
+}
+
+#products .right {
+   float: right;
+   text-align: right;
+}
+
+#products .right table{
+   text-align: left;
+}
+
+#products .center table {
+   margin: 0 auto;
+   text-align: left;
+}
+
+#products table table {
+   width:auto;	
+}
+
+#products p{
+  margin: 5px;
+}
+
+#products .title {
+    color: #3b638f;
+    font-weight:bold;	
+}
+
+#products .image {
+   border: 1px solid #cde1f1;
+   text-align: center;
+}
+
+#products .image div{
+   border: 10px solid #e2ecf4;
+}
+
+#products .image img {
+   height: 250px;
+   margin-bottom: -4px;
+   width: 350px; 
+ 
+}
+
+#products .price, #products .cod {
+   font-weight: bold;  	
+}
+
+#products .price span{
+   color: #669048; 	
+}
+
+#products .cod span{
+   color: #669048; 	
+}
+
+#products .cod {
+   text-align: right;	
+}
+
+#pagination  table{
+    background-color: #e2ecf4;	
+	padding: 8px;
+	width:100%;
+}
+
+#pagination #pages {
+   width: auto;
+   margin: 0 auto;
+}
+
+#pagination table a {
+    background-color: #acbece;	
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#pagination td.active a, #pagination td a:hover {
+	    background-color: #538bc5;	
+}
+
+#pagination #pages td.active a, #pagination #pages td a:hover{
+	   background-color: #375c84;
+}
+
+#pagination .left, #pagination .right {
+   width:20%;
+}	
+
+#footer {
+	font-size: 90%;
+}
+
+#footer table {
+   	width: 100%;
+}
+
+#footer table td {
+    vertical-align: top;	
+}
+
+#footer p {
+	   margin: 0;
+	   color: #628488;
+}
+
+#footer p a{
+    text-decoration: none;
+    color: #37565a;	
+}
+
+#footer table table {
+  width: auto;	
+  float: right;
+}
+
+#footer table table a {
+   color: #628488;
+   text-decoration:none;  
+}
+
+#footer table table td {
+    border-right: 1px solid #628488;
+    padding: 0 5px;	
+}
+
+#footer .last{
+   border: none;
+   padding-right: 0;   
+}
+
